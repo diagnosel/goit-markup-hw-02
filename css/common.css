@@ -1,0 +1,54 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f4266;
+  --hero-background: #2e2f42b2;
+  --white: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+.page {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  background-color: var(--white);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--primary-brand);
+}
+
+.header-nav-list,
+.header-contact-list,
+.features-list,
+.team-list,
+.portfolio-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header-nav-link,
+.header-contact-link {
+  text-decoration: none;
+}
+
+.team-image,
+.portfolio-image {
+  display: block;
+}
